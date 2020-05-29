@@ -1,1 +1,1 @@
-print "Hello world"
+print "This is your ruby integration with jenkins"
