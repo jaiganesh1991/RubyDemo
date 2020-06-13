@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="javademo" default="javabuild" basedir=".">
+
+  <target name="javabuild">
+    <ant antfile="./build.xml">
+      <javac srcdir="./" destdir="./target"/>
+    </ant>
+  </target>
+
+</project>
